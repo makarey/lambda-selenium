@@ -16,7 +16,7 @@ public class LambdaTest extends LambdaBaseTest {
     public void epamTest() {
         open("https://www.epam.com/");
         screenshot("epam-home-page");
-        assertThat(title(), containsString("Тако собі..."));
+        assertThat(title(), containsString("Incorrect string"));
     }
 
     @Test
@@ -89,12 +89,12 @@ public class LambdaTest extends LambdaBaseTest {
         assertThat(title(), containsString("Wikipedia"));
     }
 
-//    @Test
-//    public void yandexTest() {
-//        open("http://yandex.ru/");
-//        screenshot("yandex-home-page");
-//        assertThat(title(), containsString("Яндекс"));
-//    }
+    @Test
+    public void matallicaTest() {
+        open("https://www.metallica.com/");
+        screenshot("metallica-home-page");
+        assertThat(title(), containsString("Metallica"));
+    }
 
     @Test
     public void amazonTest() {
@@ -110,12 +110,12 @@ public class LambdaTest extends LambdaBaseTest {
         assertThat(title(), containsString("Outlook"));
     }
 
-//    @Test
-//    public void okTest() {
-//        open("http://ok.ru/");
-//        screenshot("ok-home-page");
-//        assertThat(title(), containsString("OK"));
-//    }
+    @Test
+    public void fandomTest() {
+        open("https://www.fandom.com/");
+        screenshot("fandom-home-page");
+        assertThat(title(), containsString("Fandom"));
+    }
 
     @Test
     public void promTest() {
@@ -138,19 +138,19 @@ public class LambdaTest extends LambdaBaseTest {
         assertThat(title(), containsString("Netflix"));
     }
 
-//    @Test
-//    public void yelpTest() {
-//        open("https://www.yelp.com/");
-//        screenshot("yelp-home-page");
-//        assertThat(title(), containsString("Yelp"));
-//    }
+    @Test
+    public void yelpTest() {
+        open("https://www.yelp.com/");
+        screenshot("yelp-home-page");
+        assertThat(title(), containsString("Yelp"));
+    }
 
-//    @Test
-//    public void ampprojectTest() {
-//        open("https://ampproject.org/");
-//        screenshot("ampproject-home-page");
-//        assertThat(title(), containsString("AMP"));
-//    }
+    @Test
+    public void ampprojectTest() {
+        open("https://ampproject.org/");
+        screenshot("ampproject-home-page");
+        assertThat(title(), containsString("AMP"));
+    }
 
     @Test
     public void aliexpressTest() {
@@ -159,12 +159,12 @@ public class LambdaTest extends LambdaBaseTest {
         assertThat(title(), containsString("AliExpress"));
     }
 
-//    @Test
-//    public void parimatchTest() {
-//        open("https://parimatch.com/");
-//        screenshot("parimatch-home-page");
-//        assertThat(title(), containsString("Париматч"));
-//    }
+    @Test
+    public void pinterestTest() {
+        open("https://www.pinterest.com/");
+        screenshot("pinterest-home-page");
+        assertThat(title(), containsString("Pinterest"));
+    }
 
     @Test
     public void olxTest() {
@@ -215,12 +215,12 @@ public class LambdaTest extends LambdaBaseTest {
         assertThat(title(), containsString("ROZETKA"));
     }
 
-//    @Test
-//    public void rutrackerTest() {
-//        open("http://rutracker.org/");
-//        screenshot("rutracker-home-page");
-//        assertThat(title(), containsString("RuTracker"));
-//    }
+    @Test
+    public void acdcTest() {
+        open("http://www.ac-dc.net/");
+        screenshot("acdc-home-page");
+        assertThat(title(), containsString("AC/DC"));
+    }
 
 }
 
