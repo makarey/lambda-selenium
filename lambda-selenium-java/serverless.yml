@@ -8,12 +8,12 @@ provider:
   name: aws
   stage: ${opt:stage, 'dev'}
   runtime: java8
-  memorySize: 3008
+  memorySize: 1024
   timeout: 300
   versionFunctions: false
 
 functions:
   'lambda-selenium-demo':
-    handler: 'com.blackboard.testing.lambda.LambdaTestHandler::handleRequest'
+    handler: 'com.testing.lambda.LambdaTestHandler::handleRequest'
     name: lambda-selenium-function
     description: Lambda Selenium Demo Tests
