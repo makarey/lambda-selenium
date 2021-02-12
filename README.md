@@ -10,7 +10,7 @@ npm install serverless -g
 
 **_Use shell commands to clone the repository and change the working directory to the Java example_**
 ```shell
-git clone git@github.com:makarey/lambda-selenium.git
+git clone https://github.com/makarey/lambda-selenium.git
 cd lambda-selenium/lambda-selenium-java/
 ```
 
